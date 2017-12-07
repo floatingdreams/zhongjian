@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/mobile.css">
+	<title>design</title>
+</head>
+<body>
+	<div class="header">
+		<a href="#">
+			<h1><img src="images/logo.png" alt=""></h1>
+		</a>
+	</div>
+	<div class="dgright">
+		<h2>注册，获取全部资源</h2>
+		<form action="">
+			<div class="formtop">
+				<p><input type="text"><span>姓名</span></p>
+				<p><input type="text"><span>电子邮件</span></p>
+				<p><input type="text"><span>公司</span></p>
+				<p><input type="text"><span>职位</span></p>
+				<p><input type="text"><span>电话</span></p>
+			</div>
+			<h3>除此次查询的相关内容以外，你是否愿意接其他相关信息？</h3>
+			<div class="sur">
+				<p class="checked"><label for="agree">电子邮件：</label><input type="radio" name="agree" value="yes" checked><span class="yesbtn">是</span><input type="radio" name="agree" value="no"><span>否</span></p>
+				<p class="checked"><label for="agree">电 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;话：</label><input type="radio" name="agrees" value="yess" checked><span class="yesbtn">是</span><input type="radio" name="agrees" value="nos"><span>否</span></p>
+				<p><input type="checkbox" name="agree" value="yes" checked><label for="agree">我已阅读并同意服务条款</label></p>
+			</div>
+			<input type="submit" value="提交" class="formsub">
+		</form>
+	</div>
+	<script>
+		(function(doc, win) {
+			function change() {
+				document.documentElement.style.fontSize = document.documentElement.clientWidth / 20 + 'px';
+			}
+			doc.addEventListener('DOMContentLoaded', change, false);
+			win.addEventListener('resize', change, false)
+		})(document, window);
+	</script>
+</body>
+</html>
