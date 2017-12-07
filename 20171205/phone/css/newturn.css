@@ -1,0 +1,57 @@
+.yuntabsbox ul li:nth-child(1){
+	background: url("./../images/phone/pic_32.png") no-repeat;
+	background-size: 100% 100%;
+}
+.yuntabsbox ul li:nth-child(2){
+	background: url("./../images/phone/pic_33.png") no-repeat;
+	background-size: 100% 100%;
+}
+.yuntabsbox ul li:nth-child(3){
+	/*margin-right: 0;*/
+	background: url("./../images/phone/pic_34.jpg") no-repeat;
+	background-size: 100% 100%;
+}
+.yuntabsbox ul li:nth-child(4){
+	background: url("./../images/phone/pic_35.png") no-repeat;
+	background-size: 100% 100%;
+}
+.yuntabsbox ul li:nth-child(5){
+	margin-left: 0.25rem;
+	background: url("./../images/phone/pic_36.png") no-repeat;
+	background-size: 100% 100%;
+}
+.yuntabsbox ul li:nth-child(6){
+	margin-left:0.25rem;
+	/*margin-right: 0;*/
+	width: 4.5rem;
+	background: url("./../images/phone/pic_37.png") no-repeat;
+	background-size: 100% 100%;
+}
+.yuntabsbox ul li:nth-child(7){
+	background: url("./../images/phone/pic_38.png") no-repeat;
+	background-size: 100% 100%;
+}
+.yuntabs{
+	padding:0 0.625rem;
+	box-sizing: border-box;
+}
+.yuntabsbox{
+	position: relative;
+	padding:0;
+	overflow: hidden;
+}
+.yuntabsbox ul{
+	padding-left: 0rem;
+	width: 46rem;
+	height: 10.75rem;
+	box-sizing: border-box;
+	transition: all 1s;
+}
+.yuntabsbox ul li{
+	float:left;
+	margin: 1.5625rem 1rem 1rem 0;
+	width: 5.25rem;
+	height: 7rem;
+	box-sizing: border-box;
+	text-align: center;
+}
